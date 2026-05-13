@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stackly Login</title>
+
+  <link rel="stylesheet" href="login.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="auth-page">
+
+  <div class="auth-box small-box">
+
+    <img src="image.png" class="logo" alt="Stackly Logo">
+
+    <h2>Login</h2>
+
+    <form id="loginForm">
+
+      <input type="email" id="loginEmail" placeholder="Email">
+      <small id="loginEmailError"></small>
+
+      <input type="password" id="loginPassword" placeholder="Password">
+      <small id="loginPasswordError"></small>
+
+      <!-- Remember Me + Forgot Password -->
+      <div class="login-options">
+
+        <label class="remember-me">
+          <input type="checkbox">
+          Remember Me
+        </label>
+
+        <a href="#" class="forgot-password">
+          Forgot Password?
+        </a>
+
+      </div>
+
+      <button type="submit" class="primary-btn">
+        Login
+      </button>
+
+    </form>
+
+    <a href="index.html" class="home-btn">
+      Go to Home
+    </a>
+
+    <p class="signup-text">
+      New user?
+      <a href="sign up.html">Create Account</a>
+    </p>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
